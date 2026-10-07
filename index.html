@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="תורה שומרונית: אפליקציה חינמית ל-iPhone ול-iPad · The Samaritan Torah: a free app for iPhone and iPad · التوراة السامرية: تطبيق مجاني لـ iPhone وiPad">
+<title>תורה שומרונית · The Samaritan Torah · التوراة السامرية</title>
+<link rel="icon" href="data:,">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbf8f1;
+  --fg: #1f1c17;
+  --muted: #5b554b;
+  --accent: #7a4512;
+  --rule: #d6cbb2;
+  --note: #f3ecdc;
+  --focus: #0b57d0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171512;
+    --fg: #f1ebe0;
+    --muted: #c4bba9;
+    --accent: #f2c47c;
+    --rule: #4a4336;
+    --note: #24201b;
+    --focus: #8ab4f8;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Hebrew", "Noto Sans Arabic", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+:lang(ar) { line-height: 1.8; }
+.wrap { max-width: 44rem; margin-inline: auto; padding-inline: 1rem; }
+.skip {
+  position: absolute; inset-inline-start: .5rem; top: -40rem; z-index: 10;
+  padding: .6rem .9rem; background: var(--bg); color: var(--fg);
+  border: 2px solid var(--focus); border-radius: .4rem;
+}
+.skip:focus { top: .5rem; }
+header.site { border-bottom: 1px solid var(--rule); }
+header.site .wrap {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: .25rem 1rem; padding-block: .4rem;
+}
+.brand { margin: 0; font-weight: 600; }
+.brand span { white-space: nowrap; }
+.langs ul { display: flex; flex-wrap: wrap; gap: .25rem .75rem; list-style: none; margin: 0; padding: 0; }
+.langs a, .brand a { display: inline-block; padding-block: .55rem; }
+main:focus { outline: none; }
+section { padding-block: 1.75rem 2.25rem; }
+section + section { border-top: 2px solid var(--rule); }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .5rem; }
+h2 { font-size: 1.25rem; line-height: 1.35; margin: 2rem 0 .5rem; color: var(--accent); }
+h3 { font-size: 1.0625rem; line-height: 1.4; margin: 1.4rem 0 .3rem; }
+p, ul { margin: 0 0 .9rem; }
+ul { padding-inline-start: 1.4rem; }
+li { margin-block-end: .4rem; }
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .18em;
+}
+a:hover { text-decoration-thickness: .16em; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+a[href^="mailto:"], .host { overflow-wrap: anywhere; }
+.nowrap { white-space: nowrap; }
+section[lang="ar"] { font-size: 1.125rem; }
+.hosts { margin: 0 0 .9rem; }
+.hosts dt { font-weight: 600; margin-top: .6rem; }
+.hosts dd { margin: 0; }
+.ext .host { display: block; color: var(--muted); }
+section[dir="rtl"] .hosts dt, section[dir="rtl"] .ext .host { text-align: right; }
+.meta, .updated { color: var(--muted); }
+.lede { font-size: 1.15rem; }
+.note {
+  background: var(--note); border-inline-start: 4px solid var(--accent);
+  border-radius: .25rem; padding: .75rem 1rem;
+}
+.links { list-style: none; padding: 0; }
+.links li { margin: 0; }
+.links a, .links span { display: inline-block; padding-block: .45rem; }
+.more { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.more ul { display: flex; flex-wrap: wrap; gap: 0 1.5rem; list-style: none; margin: 0; padding: 0; }
+.more li { margin: 0; }
+.more a { display: inline-block; padding-block: .45rem; }
+@media print {
+  .skip, .langs, .more { display: none; }
+  a { color: inherit; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="he">דילוג לתוכן</span> · <span lang="en">Skip to content</span> · <span lang="ar">انتقل إلى المحتوى</span></a>
+<header class="site">
+  <div class="wrap">
+    <nav class="langs" aria-label="שפה · Language · اللغة"><ul><li><a href="#he" lang="he" hreflang="he">עברית</a></li><li><a href="#en" lang="en" hreflang="en">English</a></li><li><a href="#ar" lang="ar" hreflang="ar">العربية</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" class="wrap" tabindex="-1">
+
+<section id="he" lang="he" dir="rtl" aria-labelledby="he-title">
+<h1 id="he-title">תורה שומרונית</h1>
+<p class="lede">אפליקציה חינמית ל-iPhone ול-iPad לקריאה וללימוד של התורה השומרונית, בכתב השומרוני ובאותיות עבריות.</p>
+<ul class="links">
+  <li><a href="support.html#he">תמיכה ושאלות נפוצות</a></li>
+  <li><a href="privacy.html#he">מדיניות פרטיות</a></li>
+  <li><a href="accessibility.html#he">הצהרת נגישות</a></li>
+  <!-- The App&nbsp;Store: add the link (href) here once the app is live on the App&nbsp;Store. -->
+  <li><span lang="en" dir="ltr">App&nbsp;Store</span></li>
+</ul>
+<p class="meta">את האפליקציה פיתח ליעד אלטיף. הטקסט ורוב הנתונים לקוחים מהמיזם של אושר ששוני, „התורה השומרונית הישראלית”, ומובאים באישורו.</p>
+</section>
+
+<section id="en" lang="en" dir="ltr" aria-labelledby="en-title">
+<h1 id="en-title">The Samaritan Torah</h1>
+<p class="lede">A free app for iPhone and iPad for reading and studying the Samaritan Torah, in Samaritan script and in Hebrew letters.</p>
+<ul class="links">
+  <li><a href="support.html#en">Support and frequently asked questions</a></li>
+  <li><a href="privacy.html#en">Privacy policy</a></li>
+  <li><a href="accessibility.html#en">Accessibility statement</a></li>
+  <!-- The App&nbsp;Store: add the link (href) here once the app is live on the App&nbsp;Store. -->
+  <li><span lang="en" dir="ltr">App&nbsp;Store</span></li>
+</ul>
+<p class="meta">Developed by Liad Altif. The text and most of the data come from Osher Sassoni’s project “The Israelite Samaritan Torah”, and are used with his permission.</p>
+</section>
+
+<section id="ar" lang="ar" dir="rtl" aria-labelledby="ar-title">
+<h1 id="ar-title">التوراة السامرية</h1>
+<p class="lede">تطبيق مجاني لـ iPhone وiPad لقراءة التوراة السامرية ودراستها، بالخط السامري وبالحروف العبرية.</p>
+<ul class="links">
+  <li><a href="support.html#ar">الدعم والأسئلة الشائعة</a></li>
+  <li><a href="privacy.html#ar">سياسة الخصوصية</a></li>
+  <li><a href="accessibility.html#ar">بيان إمكانية الوصول</a></li>
+  <!-- The App&nbsp;Store: add the link (href) here once the app is live on the App&nbsp;Store. -->
+  <li><span lang="en" dir="ltr">App&nbsp;Store</span></li>
+</ul>
+<p class="meta">التطبيق من تطوير <bdi lang="en">Liad Altif</bdi>. النصّ ومعظم البيانات مأخوذة من مشروع أوشير ساسوني «التوراة السامرية الإسرائيلية»، وهي مستخدمة بإذنه.</p>
+</section>
+
+</main>
+</body>
+</html>

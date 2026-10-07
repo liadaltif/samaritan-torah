@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="הצהרת הנגישות של „תורה שומרונית” · Accessibility statement of “The Samaritan Torah” · بيان إمكانية الوصول لتطبيق «التوراة السامرية»">
+<title>הצהרת נגישות · Accessibility Statement · بيان إمكانية الوصول | The Samaritan Torah</title>
+<link rel="icon" href="data:,">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbf8f1;
+  --fg: #1f1c17;
+  --muted: #5b554b;
+  --accent: #7a4512;
+  --rule: #d6cbb2;
+  --note: #f3ecdc;
+  --focus: #0b57d0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171512;
+    --fg: #f1ebe0;
+    --muted: #c4bba9;
+    --accent: #f2c47c;
+    --rule: #4a4336;
+    --note: #24201b;
+    --focus: #8ab4f8;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Hebrew", "Noto Sans Arabic", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+:lang(ar) { line-height: 1.8; }
+.wrap { max-width: 44rem; margin-inline: auto; padding-inline: 1rem; }
+.skip {
+  position: absolute; inset-inline-start: .5rem; top: -40rem; z-index: 10;
+  padding: .6rem .9rem; background: var(--bg); color: var(--fg);
+  border: 2px solid var(--focus); border-radius: .4rem;
+}
+.skip:focus { top: .5rem; }
+header.site { border-bottom: 1px solid var(--rule); }
+header.site .wrap {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: .25rem 1rem; padding-block: .4rem;
+}
+.brand { margin: 0; font-weight: 600; }
+.brand span { white-space: nowrap; }
+.langs ul { display: flex; flex-wrap: wrap; gap: .25rem .75rem; list-style: none; margin: 0; padding: 0; }
+.langs a, .brand a { display: inline-block; padding-block: .55rem; }
+main:focus { outline: none; }
+section { padding-block: 1.75rem 2.25rem; }
+section + section { border-top: 2px solid var(--rule); }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .5rem; }
+h2 { font-size: 1.25rem; line-height: 1.35; margin: 2rem 0 .5rem; color: var(--accent); }
+h3 { font-size: 1.0625rem; line-height: 1.4; margin: 1.4rem 0 .3rem; }
+p, ul { margin: 0 0 .9rem; }
+ul { padding-inline-start: 1.4rem; }
+li { margin-block-end: .4rem; }
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .18em;
+}
+a:hover { text-decoration-thickness: .16em; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+a[href^="mailto:"], .host { overflow-wrap: anywhere; }
+.nowrap { white-space: nowrap; }
+section[lang="ar"] { font-size: 1.125rem; }
+.hosts { margin: 0 0 .9rem; }
+.hosts dt { font-weight: 600; margin-top: .6rem; }
+.hosts dd { margin: 0; }
+.ext .host { display: block; color: var(--muted); }
+section[dir="rtl"] .hosts dt, section[dir="rtl"] .ext .host { text-align: right; }
+.meta, .updated { color: var(--muted); }
+.lede { font-size: 1.15rem; }
+.note {
+  background: var(--note); border-inline-start: 4px solid var(--accent);
+  border-radius: .25rem; padding: .75rem 1rem;
+}
+.links { list-style: none; padding: 0; }
+.links li { margin: 0; }
+.links a, .links span { display: inline-block; padding-block: .45rem; }
+.more { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: .5rem; }
+.more ul { display: flex; flex-wrap: wrap; gap: 0 1.5rem; list-style: none; margin: 0; padding: 0; }
+.more li { margin: 0; }
+.more a { display: inline-block; padding-block: .45rem; }
+@media print {
+  .skip, .langs, .more { display: none; }
+  a { color: inherit; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="he">דילוג לתוכן</span> · <span lang="en">Skip to content</span> · <span lang="ar">انتقل إلى المحتوى</span></a>
+<header class="site">
+  <div class="wrap">
+    <p class="brand"><a href="index.html"><span lang="he">תורה שומרונית</span> · <span lang="en" dir="ltr">The Samaritan Torah</span> · <span lang="ar">التوراة السامرية</span></a></p>
+    <nav class="langs" aria-label="שפה · Language · اللغة"><ul><li><a href="#he" lang="he" hreflang="he">עברית</a></li><li><a href="#en" lang="en" hreflang="en">English</a></li><li><a href="#ar" lang="ar" hreflang="ar">العربية</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" class="wrap" tabindex="-1">
+
+<section id="he" lang="he" dir="rtl" aria-labelledby="he-title">
+<h1 id="he-title">הצהרת נגישות</h1>
+<p class="note">העמוד הזה הוא העותק באינטרנט של הצהרת הנגישות שבאפליקציה (הגדרות › נגישות › הצהרת נגישות).</p>
+
+<h2>על האפליקציה</h2>
+<p>„תורה שומרונית” היא אפליקציה חינמית שאינה מסחרית, מאת ליעד אלטיף. התוכן שבה לקוח מאתר „התורה השומרונית הישראלית” של אושר ששוני, ומובא באישורו.</p>
+
+<h2>המחויבות שלנו</h2>
+<p>אנו רוצים שכל אדם, גם אדם עם מוגבלות, יוכל לקרוא וללמוד באפליקציה. האפליקציה הותאמה, ככל האפשר וככל שהדבר רלוונטי ליישום ולאפשרויות הנגישות של iOS, לתקן הישראלי ת״י&nbsp;5568 (WCAG&nbsp;2.0) ברמה&nbsp;AA, ובהתאם להנחיות WCAG&nbsp;2.1 ברמה&nbsp;AA.</p>
+<p>ההצהרה חלה על האפליקציה ב-iPhone וב-iPad עם iOS&nbsp;18 ואילך, בשני סגנונות התצוגה, „קלאסי” ו„אבני שהם”. ההתאמות נשענות על שירותי הנגישות של iOS: VoiceOver, שליטה קולית, טקסט גדול יותר והגדרות התצוגה והתנועה.</p>
+
+<h2>מה הותאם</h2>
+<h3><span lang="en" dir="ltr">VoiceOver</span></h3>
+<p>במשימות העיקריות לכל כפתור יש שם, כותרות מסומנות ככותרות, והפעולות שבלחיצה ארוכה או במחווה זמינות גם כפעולות של VoiceOver. שינויים, כמו מספר תוצאות החיפוש, מוקראים בקול.</p>
+<h3>הכתב השומרוני</h3>
+<p>ל-iOS אין קול לכתב השומרוני, ולכן VoiceOver מקריא כל פסוק במילים שלו באותיות עבריות.</p>
+<h3>גודל טקסט</h3>
+<p>הטקסט גדל עם הגדרת „טקסט גדול יותר” של iOS. אפשר להגדיל אותו עוד בתוך האפליקציה: בסגנון „קלאסי” בהגדרות או בצביטה, ובסגנון „אבני שהם” בכפתורי גודל הטקסט.</p>
+<h3>מראה כהה</h3>
+<p>בסגנון „קלאסי” יש ערכת נושא כהה, וגם ערכה שעוקבת אחר מראה המערכת (הגדרות › מראה). בסגנון „אבני שהם” אפשר להפעיל את „היפוך חכם” של iOS; תמונות וכתבי יד אינם מתהפכים.</p>
+<h3>הפחתת תנועה</h3>
+<p>כשהגדרת „הפחתת תנועה” של iOS פועלת, האפליקציה מוותרת על הנפשות כמו הפיכת דף ותנועת הסרגלים.</p>
+<h3>לא רק בצבע</h3>
+<p>המילים השונות בין הנוסחים אינן מסומנות בצבע בלבד: הן גם מודגשות או מסומנות בקו תחתון, ו-VoiceOver מקריא אותן. כשההגדרה „הבחנה ללא צבע” פועלת, הסימון בולט יותר.</p>
+<h3>ניגודיות</h3>
+<p>צבעי הטקסט והפקדים נבדקו מול יחסי הניגודיות של התקן ותוקנו היכן שלא עמדו בהם. הגדרת „הגברת ניגודיות” של iOS מחזקת אותם עוד.</p>
+<h3>סרגלים גלויים</h3>
+<p>בסגנון „אבני שהם” הסרגלים מתקפלים מעצמם אחרי כמה שניות. אפשר להשאיר אותם על המסך (הגדרות › נגישות), וכש-VoiceOver או „שליטה באמצעות מתג” פועלים הם נשארים גלויים מעצמם.</p>
+
+<h2>מגבלות ידועות</h2>
+<h3>דפי אינטרנט של צד שלישי</h3>
+<p>לוח השנה, היוחסין, אוצר השירה ואוצר כתבי היד הם דפי האתרים של אושר ששוני, הנטענים מהרשת בתוך האפליקציה. זהו תוכן של צד שלישי, והאפליקציה אינה יכולה להתאים אותו.</p>
+<h3>סרטון לוח השנה</h3>
+<p>לסרטון ההסבר שבדף לוח השנה אין כתוביות. הסרטון הוא חלק מדף של צד שלישי.</p>
+<h3>שליטה קולית</h3>
+<p>שליטה קולית של iOS אינה זמינה בעברית.</p>
+<h3>תצוגה לרוחב</h3>
+<p>ב-iPhone, סגנון „אבני שהם” מוצג לאורך בלבד; סגנון „קלאסי” מוצג גם לרוחב.</p>
+<h3>ציר הזמן</h3>
+<p>בסגנון „אבני שהם” ציר הזמן הוא דף אינטראקטיבי שקשה להשתמש בו בלי ראייה. בסגנון „קלאסי” יש ציר זמן שנקרא כרשימה.</p>
+<h3>צבעים בהירים</h3>
+<p>סגנון „אבני שהם” מוצג תמיד בצבעים בהירים. בסגנון „קלאסי” אפשר לבחור ערכת נושא כהה.</p>
+<h3>הקלטות</h3>
+<p>להקלטות של קריאת התורה אין כתוביות. הפסוקים הנקראים מופיעים באפליקציה כטקסט.</p>
+
+<h2>דיווח על בעיה</h2>
+<p>נתקלתם בבעיית נגישות, או שאתם צריכים התאמה? כתבו לנו:</p>
+<p><a href="mailto:liadaltif@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%91%D7%A0%D7%95%D7%A9%D7%90%20%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA%20%E2%80%94%20%D7%AA%D7%95%D7%A8%D7%94%20%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%A0%D7%99%D7%AA" dir="ltr" lang="en">liadaltif@gmail.com</a></p>
+<p>נשיב לכל פנייה ונתקן את הבעיה תוך 60 יום לכל היותר. עד לתיקון נציע דרך חלופית, למשל לשלוח לכם את הקטע המבוקש כטקסט.</p>
+<p>כדאי לציין את דגם המכשיר, את גרסת iOS, את סגנון התצוגה ואת המסך שבו נתקלתם בבעיה.</p>
+<p class="updated">ההצהרה עודכנה לאחרונה ב־6 באוקטובר 2026.</p>
+<nav class="more" aria-label="עמודים נוספים"><ul><li><a href="index.html#he">דף הבית</a></li><li><a href="support.html#he">תמיכה ושאלות נפוצות</a></li><li><a href="privacy.html#he">מדיניות פרטיות</a></li></ul></nav>
+</section>
+
+<section id="en" lang="en" dir="ltr" aria-labelledby="en-title">
+<h1 id="en-title">Accessibility statement</h1>
+<p class="note">This page is the web copy of the accessibility statement in the app (Settings › Accessibility › Accessibility statement).</p>
+
+<h2>About the app</h2>
+<p>“The Samaritan Torah” is a free, non-commercial app by Liad Altif. Its content comes from Osher Sassoni’s website “The Israelite Samaritan Torah” and appears with his permission.</p>
+
+<h2>Our commitment</h2>
+<p>We want everyone, including people with disabilities, to be able to read and study with this app. It has been made accessible, as far as possible and as far as this applies to an app and to the accessibility options of iOS, to Israeli Standard IS&nbsp;5568 (WCAG&nbsp;2.0) at level&nbsp;AA, and follows the WCAG&nbsp;2.1 guidelines at level&nbsp;AA.</p>
+<p>This statement covers the app on iPhone and iPad with iOS&nbsp;18 or later, in both display styles, Classic and Avnei Shoham. The adjustments rely on the accessibility features of iOS: VoiceOver, Voice Control, Larger Text, and the display and motion settings.</p>
+
+<h2>What has been adjusted</h2>
+<h3><span lang="en" dir="ltr">VoiceOver</span></h3>
+<p>In the main tasks every button has a name, titles are marked as headings, and what a long press or a gesture does is also offered as a VoiceOver action. Changes, such as the number of search results, are read out.</p>
+<h3>The Samaritan script</h3>
+<p>iOS has no voice for the Samaritan script, so VoiceOver reads each verse in its own words, in Hebrew letters.</p>
+<h3>Text size</h3>
+<p>Text grows with the Larger Text setting of iOS, and can be made larger still in the app: in the Classic style in Settings or with a pinch, and in the Avnei Shoham style with its text-size buttons.</p>
+<h3>Dark appearance</h3>
+<p>The Classic style has a dark theme, and one that follows the system appearance (Settings › Appearance). In the Avnei Shoham style you can turn on Smart Invert in iOS; photos and manuscripts are not inverted.</p>
+<h3>Reduce Motion</h3>
+<p>When Reduce Motion is on in iOS, the app leaves out animations such as page turns and moving toolbars.</p>
+<h3>Not by colour alone</h3>
+<p>Words that differ between versions are not marked by colour alone: they are also in bold or underlined, and VoiceOver reads them out. With Differentiate Without Color on, the marks stand out more.</p>
+<h3>Contrast</h3>
+<p>The colours of text and controls were checked against the contrast ratios of the standard and corrected where they fell short. Increase Contrast in iOS strengthens them further.</p>
+<h3>Toolbars that stay visible</h3>
+<p>In the Avnei Shoham style the toolbars fold away by themselves after a few seconds. You can keep them on screen (Settings › Accessibility), and while VoiceOver or Switch Control is on they stay visible by themselves.</p>
+
+<h2>Known limitations</h2>
+<h3>Third-party web pages</h3>
+<p>The calendar, the genealogy, the song treasury and the manuscript treasury are Osher Sassoni’s web pages, loaded from the internet inside the app. They are third-party content, which the app cannot adapt.</p>
+<h3>The calendar video</h3>
+<p>The video guide on the calendar page has no captions. The video is part of a third-party page.</p>
+<h3>Voice Control</h3>
+<p>Voice Control in iOS is not available in Hebrew.</p>
+<h3>Landscape</h3>
+<p>On iPhone, the Avnei Shoham style is shown in portrait only; the Classic style also works in landscape.</p>
+<h3>Timeline</h3>
+<p>In the Avnei Shoham style the timeline is an interactive page that is hard to use without sight. The Classic style has a timeline that reads as a list.</p>
+<h3>Light colours</h3>
+<p>The Avnei Shoham style is always shown in light colours. The Classic style offers a dark theme.</p>
+<h3>Recordings</h3>
+<p>The recordings of the Torah reading have no captions. The verses they read are in the app as text.</p>
+
+<h2>Reporting a problem</h2>
+<p>Found an accessibility problem, or need an adjustment? Write to us:</p>
+<p><a href="mailto:liadaltif@gmail.com?subject=Accessibility%20request%20%E2%80%94%20The%20Samaritan%20Torah" dir="ltr" lang="en">liadaltif@gmail.com</a></p>
+<p>We will answer every message and fix the problem within 60 days at most. Until it is fixed we will offer another way, such as sending you the passage you need as text.</p>
+<p>It helps to mention your device model, your iOS version, the display style and the screen where the problem happened.</p>
+<p class="updated">This statement was last updated on October 6, 2026.</p>
+<nav class="more" aria-label="More pages"><ul><li><a href="index.html#en">Home page</a></li><li><a href="support.html#en">Support and frequently asked questions</a></li><li><a href="privacy.html#en">Privacy policy</a></li></ul></nav>
+</section>
+
+<section id="ar" lang="ar" dir="rtl" aria-labelledby="ar-title">
+<h1 id="ar-title">بيان إمكانية الوصول</h1>
+<p class="note">هذه الصفحة هي النسخة المنشورة على الويب من بيان إمكانية الوصول الموجود في التطبيق (الإعدادات › إمكانية الوصول › بيان إمكانية الوصول).</p>
+
+<h2>عن التطبيق</h2>
+<p>«التوراة السامرية» تطبيق مجاني غير تجاري من إعداد Liad Altif. محتواه مأخوذ من موقع «التوراة السامرية الإسرائيلية» لأوشير ساسوني، ويُعرض بإذنه.</p>
+
+<h2>التزامنا</h2>
+<p>نريد أن يتمكّن كل شخص، ومنهم الأشخاص ذوو الإعاقة، من القراءة والتعلّم بهذا التطبيق. وقد هُيّئ التطبيق، قدر الإمكان وبقدر ما ينطبق ذلك على التطبيقات وعلى خيارات إمكانية الوصول في iOS، وفق المعيار الإسرائيلي IS&nbsp;5568 (WCAG&nbsp;2.0) بالمستوى&nbsp;AA، وهو يتّبع إرشادات WCAG&nbsp;2.1 بالمستوى&nbsp;AA.</p>
+<p>يشمل هذا البيان التطبيق على iPhone وiPad بنظام iOS&nbsp;18 أو أحدث، بنمطَي العرض «كلاسيكي» و«أبني شوهم». وتعتمد التهيئة على ميزات إمكانية الوصول في iOS: ‏VoiceOver والتحكم الصوتي والنص الأكبر وإعدادات العرض والحركة.</p>
+
+<h2>ما الذي هُيّئ</h2>
+<h3><span lang="en" dir="ltr">VoiceOver</span></h3>
+<p>في المهام الرئيسية لكل زر اسم، والعناوين معلَّمة كعناوين، وما يفعله الضغط المطوّل أو الإيماءة متاح أيضًا كإجراء في VoiceOver. وتُقرأ التغييرات، مثل عدد نتائج البحث، بصوت عالٍ.</p>
+<h3>الخط السامري</h3>
+<p>لا يملك iOS صوتًا للخط السامري، لذلك يقرأ VoiceOver كل آية بكلماتها، بالحروف العبرية.</p>
+<h3>حجم النصّ</h3>
+<p>يكبر النص مع إعداد «نص أكبر» في iOS، ويمكن تكبيره أكثر داخل التطبيق: في النمط الكلاسيكي من الإعدادات أو بقرص الشاشة بإصبعين، وفي نمط «أبني شوهم» بأزرار حجم النص.</p>
+<h3>المظهر الداكن</h3>
+<p>في النمط الكلاسيكي سمة داكنة، وسمة تتبع مظهر النظام (الإعدادات › المظهر). وفي نمط «أبني شوهم» يمكنك تشغيل «عكس ذكي» في iOS؛ ولا تنعكس ألوان الصور والمخطوطات.</p>
+<h3>تقليل الحركة</h3>
+<p>عند تشغيل «تقليل الحركة» في iOS، يستغني التطبيق عن الحركات مثل قلب الصفحات وحركة الأشرطة.</p>
+<h3>ليس باللون وحده</h3>
+<p>لا تُميَّز الكلمات المختلفة بين النُّسَخ باللون وحده: فهي أيضًا بخط عريض أو تحتها خط، ويقرؤها VoiceOver. وعند تشغيل «التمييز بدون ألوان» تصبح العلامات أوضح.</p>
+<h3>التباين</h3>
+<p>فُحِصت ألوان النصوص وعناصر التحكم وفق نِسَب التباين التي يحدّدها المعيار، وصُحِّحت حيث قصُرت عنها. ويقوّيها إعداد «زيادة التباين» في iOS أكثر.</p>
+<h3>أشرطة تبقى ظاهرة</h3>
+<p>في نمط «أبني شوهم» تُطوى الأشرطة من تلقاء نفسها بعد بضع ثوانٍ. يمكنك إبقاؤها على الشاشة (الإعدادات › إمكانية الوصول)، وعند تشغيل VoiceOver أو «التحكم بالتبديل» تبقى ظاهرة من تلقاء نفسها.</p>
+
+<h2>قيود معروفة</h2>
+<h3>صفحات ويب لطرف ثالث</h3>
+<p>التقويم وسلسلة النسب وكنز الشعر وكنز المخطوطات هي صفحات مواقع أوشير ساسوني، تُحمَّل من الإنترنت داخل التطبيق. وهي محتوى لطرف ثالث لا يستطيع التطبيق تهيئته.</p>
+<h3>فيديو التقويم</h3>
+<p>لا ترافق فيديو الشرح في صفحة التقويم ترجمة نصّية. والفيديو جزء من صفحة لطرف ثالث.</p>
+<h3>التحكم الصوتي</h3>
+<p>التحكم الصوتي في iOS غير متاح بالعبرية.</p>
+<h3>الوضع الأفقي</h3>
+<p>على iPhone يُعرض نمط «أبني شوهم» بالوضع العمودي فقط؛ أما النمط الكلاسيكي فيعمل بالوضع الأفقي أيضًا.</p>
+<h3>الخطّ الزمني</h3>
+<p>في نمط «أبني شوهم» الخطّ الزمني صفحة تفاعلية يصعب استخدامها دون بصر. وفي النمط الكلاسيكي خطّ زمني يُقرأ كقائمة.</p>
+<h3>ألوان فاتحة</h3>
+<p>يُعرض نمط «أبني شوهم» دائمًا بألوان فاتحة. ويتيح النمط الكلاسيكي سمة داكنة.</p>
+<h3>التسجيلات</h3>
+<p>لا ترافق تسجيلات قراءة التوراة ترجمة نصّية. والآيات المقروءة موجودة في التطبيق نصًّا.</p>
+
+<h2>الإبلاغ عن مشكلة</h2>
+<p>هل واجهت مشكلة في إمكانية الوصول، أو تحتاج إلى تهيئة؟ اكتب إلينا:</p>
+<p><a href="mailto:liadaltif@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D8%A5%D9%85%D9%83%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84%20%E2%80%94%20%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%A7%D8%A9%20%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D8%B1%D9%8A%D8%A9" dir="ltr" lang="en">liadaltif@gmail.com</a></p>
+<p>سنردّ على كل رسالة ونصلح المشكلة خلال 60 يومًا على الأكثر. وإلى أن تُصلَح سنقدّم طريقة بديلة، مثل إرسال المقطع الذي تحتاجه إليك نصًّا.</p>
+<p>يفيدنا أن تذكر طراز جهازك وإصدار iOS ونمط العرض والشاشة التي واجهت فيها المشكلة.</p>
+<p class="updated">آخر تحديث لهذا البيان: 6 أكتوبر، 2026.</p>
+<nav class="more" aria-label="صفحات أخرى"><ul><li><a href="index.html#ar">الصفحة الرئيسية</a></li><li><a href="support.html#ar">الدعم والأسئلة الشائعة</a></li><li><a href="privacy.html#ar">سياسة الخصوصية</a></li></ul></nav>
+</section>
+
+</main>
+</body>
+</html>
